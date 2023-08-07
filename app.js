@@ -4,7 +4,6 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 8008;
 
-// Create an Axios instance with a default timeout of 500ms
 const axiosInstance = axios.create({
   timeout: 500
 });
